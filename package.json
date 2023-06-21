@@ -1,0 +1,22 @@
+{
+  "main": "index.js",
+  "homepage": "https://aram-osipyan.github.io/webGLRacing/",
+  "scripts": {
+    "start": "parcel index.html --no-cache",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@parcel/babel-preset-env": "^2.8.3",
+    "@parcel/transformer-glsl": "^2.8.3",
+    "@parcel/transformer-inline-string": "^2.8.3",
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.7.0"
+  },
+  "name": "web",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
